@@ -1,0 +1,10 @@
+---
+URL : http://apis.juhe.cn/mobile/get
+---
+log :
+  name : myLogger
+  log_file_name : test.log
+  backup_count : 5
+  console_output_level : WARNING
+  file_output_level : DEBUG
+  formatter : '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
